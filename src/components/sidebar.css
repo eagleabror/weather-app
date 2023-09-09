@@ -1,0 +1,80 @@
+*{
+    outline: none;
+}
+
+.sideBar{
+    width: 20rem;
+    padding: 0 2rem;
+    background: #fff;
+    text-align: start;
+}
+
+.sideBar .inputGroup {
+    border-bottom: 1px solid #D3D3D3;
+    padding: .1rem;
+}
+
+.sideBar .inputGroup input {
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 17px;
+    /* color: #FFC307; */
+}
+
+.sideBar .inputGroup .btn{
+    border: none;
+    background-color: #FFC307;
+    padding: .2rem 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.sideBar .inputGroup .btn:hover{
+    background-color: #ffcf3f;
+    transition: .3s;
+}
+
+.sideBar p span{
+    font-size: 25px;
+}
+
+.sideBar h3{
+    font-size: 40px;
+}
+
+.sideBar .update{
+    border-bottom: 1px solid #D3D3D3;
+    padding: 1rem;
+}
+
+.sideBar .imgBox{
+    position: relative;
+    /* font-size: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center !important; */
+}
+
+
+.sideBar .imgBox h3{
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sideBar .imgBox img{
+    width: 70%;
+    border-radius: 2rem;
+    height: 200px;
+}
+
+@media (max-width: 724px){
+    .sideBar{
+        width: 100%;
+    }
+
+    .sideBar .inputGroup input{
+        width: 70%;
+    }
+}

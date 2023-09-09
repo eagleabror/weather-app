@@ -1,0 +1,25 @@
+.weekData{
+    text-align: start;
+    padding: 2rem;
+}
+
+.weekData .box-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.weekData .box-container .box{
+    padding: 0 2.5rem;
+    background: #fff;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1310px){
+    .weekData .box-container{
+        /* display: flex;
+        flex-direction: column;
+        gap: 1rem; */
+        overflow-x: scroll;
+    }
+}

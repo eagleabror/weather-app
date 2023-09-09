@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background: #F8F9FA;
+  overflow-x: hidden;
+}
+
+@media (max-width: 730px){
+  .App{
+    flex-direction: column;
+  }
+}

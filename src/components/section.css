@@ -1,0 +1,13 @@
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1310px){
+    .section{
+        /* display: flex;
+        flex-direction: column;
+        gap: 1rem; */
+        overflow-x: scroll;
+    }
+}
